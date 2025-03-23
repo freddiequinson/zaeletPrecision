@@ -9,16 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize slider
     function initSlider() {
+        if (!slides.length || !indicators.length) return;
+        
+        // Hide all slides first
+        slides.forEach(slide => {
+            slide.classList.remove('active');
+            slide.style.display = 'none';
+        });
+        
         // Set first slide as active
         slides[0].classList.add('active');
+        slides[0].style.display = 'flex';
         indicators[0].classList.add('active');
         
         // Start auto slider
         startSlideInterval();
         
         // Add event listeners
-        prevBtn.addEventListener('click', prevSlide);
-        nextBtn.addEventListener('click', nextSlide);
+        if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+        if (nextBtn) nextBtn.addEventListener('click', nextSlide);
         
         // Add indicator click events
         indicators.forEach((indicator, index) => {
@@ -30,8 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Go to specific slide
     function goToSlide(index) {
+        if (!slides.length) return;
+        
         // Remove active class from current slide and indicator
         slides[currentSlide].classList.remove('active');
+        slides[currentSlide].style.display = 'none';
         indicators[currentSlide].classList.remove('active');
         
         // Set new current slide
@@ -46,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add active class to new current slide and indicator
         slides[currentSlide].classList.add('active');
+        slides[currentSlide].style.display = 'flex';
         indicators[currentSlide].classList.add('active');
         
         // Reset interval

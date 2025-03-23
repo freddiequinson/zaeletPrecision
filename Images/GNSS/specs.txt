@@ -158,3 +158,65 @@ WiFi: IEEE 802.11 a/b/g/n
 Tilt Angle: 0-60°
 
 Tilt Accuracy: 2.5cm (within 30°)
+
+
+
+Zaelet F1 Mini
+Zaelet F1 Mini is a mini portable multi-function GNSS receiver with a new generation of measurement engine, support for tilt measurement, built-in 4G full network access and Bluetooth/WIFI, a new appearance design, magnesium alloy structure, Linux operating system, and is an ultimate, multi-function, lightweight and portable geodetic GNSS receiver.
+ Linux+Qualcomm MDM9628 Cortex-A7 intelligent system platform brings users efficient computing and unlimited expansion of product functions.
+● The host integrates a high-precision positioning module, supports BDS B1/B2/B3, GPS L1/L2/L5, GLONASS L1/L2, Galileo E1/E5a/E5b, SBAS L1, QZSS L1/L2/L5, and full-system and full-frequency signal reception and resolution.
+● Built-in intelligent high-precision inertial navigation module and real-time tilt compensation eliminate the “flying spot” in RTK measurement.
+● The 4G full network solution based on the Linux platform fully supports China Mobile/China Unicom/China Telecom 2/3/4G networks, with better compatibility, stronger signals and more stable connections.
+● New four-in-one antenna, integrating GNSS, WiFi, Bluetooth and 4G, with smaller size and better signal.
+
+Configuration	content
+Hardware Platform	Qualcomm MDM9628 Cortex-A7
+Software Platform	Linux
+GNSS	GPS	L1, L2, L5
+GLONASS	L1, L2
+BDS	B1, B2, B3
+GALILEO	E1, E5a, E5b
+QZS	L1, L2, L5 
+SBAS	L1
+Supported data formats	NMEA-0183
+Modified I/O Protocol	RTCM 2.X, RTCM 3.X
+Data update rate	5Hz
+Recapture time	<1s
+Cold Start	<40s
+Positioning accuracy	Single point positioning (RMS)	Plane: 1.5m Elevation: 3.0m
+DGPS (RMS)	Plane: 0.4m Elevation: 0.8m
+RTK (RMS)	Plane: ±(10mm+1ppm) Elevation: ±(15mm+1ppm)
+Time accuracy (RMS)	20ns
+Speed ​​accuracy (RMS)	0.03m/s
+Tilt compensation accuracy (within 30°)	<2cm (tilt function is optional)
+System Platform	Bluetooth	V2.1+EDR / V4.0 dual mode
+WIFI	802.11 a/b/g/n/ac
+Network Communication	All network
+LTE FDD: B1/B3/B5/B8
+LTE TDD: B38/B39/B40/B41
+TD-SCDMA: B34/B39
+CDMA: BC0
+WCDMA: B1/B8
+GSM: 900/1800MHz
+Built-in storage	32GB
+Indicator Lights	Power light	Power indicator
+Satellite lights	Flashing indicates effective positioning
+Bluetooth Light	Always on when Bluetooth is connected
+Data chain light	Flashes when there is a difference
+Battery/Charging	Specification	3.7V, 9600mAh
+Battery life	More than 9 hours (typical power consumption)
+Charge	Support MTK PE+ 1.1/2.0 9V/1.6A
+Support USB PD 12V/1.25A
+Support 5V/2A
+Support fast charging adapter, adaptive dynamic adjustment of charging current
+Environmental characteristics	Operating temperature	-20℃~+60℃
+Storage temperature	-40℃~+85℃
+Earthquake resistance	Resistant to 1.5m drop at room temperature
+Three protection levels	IP65
+Physical properties	Material	Magnesium alloy shell + ABS/PC plastic top cover
+size	100mm*100mm*61.5mm
+weight	≤0.65kg
+Accessories	M68 host	1 pc
+5V/2A USB power adapter	1
+USB A to Type-C cable	1 root
+Adapter	1

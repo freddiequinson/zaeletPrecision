@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Dealer - Zaelet Precision</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dealer-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="Images/ZAELET-logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-row">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/ZAELET-logo.png" alt="Zaelet Precision">
+                        <span class="company-name">Zaelet Precision</span>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="products/gnss.html">GNSS Receivers</a></li>
+                                <li><a href="products/total-station.html">Total Stations</a></li>
+                                <li><a href="products/theodolite.html">Theodolites</a></li>
+                                <li><a href="products/levels.html">Digital Levels</a></li>
+                                <li><a href="products/software.html">Software Solutions</a></li>
+                                <li><a href="products/accessories.html">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="under-construction.html">News & Events</a></li>
+                        <li><a href="under-construction.html">Support</a></li>
+                    </ul>
+                </nav>
+                <div class="search-wrapper">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Search products..." class="search-input">
+                        <button type="submit" id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div id="search-results" class="search-results"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <a href="under-construction.html" class="contact-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header-actions">
+            <button id="mobile-search-toggle"><i class="fas fa-search"></i></button>
+            <button id="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Become a Zaelet Dealer</h1>
+            <p>Join our global network and grow your business with Zaelet Precision</p>
+        </div>
+    </section>
+
+    <!-- Dealer Application Form Section -->
+    <section class="dealer-application">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dealer Application Form</h2>
+                <p>Please complete the form below to apply for our dealer program. Our team will review your application and contact you within 3-5 business days.</p>
+            </div>
+            
+            <div class="application-form-container">
+                <form id="dealer-application-form" class="dealer-form">
+                    <div class="form-section">
+                        <h3>Company Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="company-name">Company Name <span class="required">*</span></label>
+                            <input type="text" id="company-name" name="company-name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="year-established">Year Established</label>
+                                <input type="number" id="year-established" name="year-established" min="1900" max="2025">
+                            </div>
+                            <div class="form-group">
+                                <label for="num-employees">Number of Employees</label>
+                                <select id="num-employees" name="num-employees">
+                                    <option value="">Select</option>
+                                    <option value="1-5">1-5</option>
+                                    <option value="6-10">6-10</option>
+                                    <option value="11-25">11-25</option>
+                                    <option value="26-50">26-50</option>
+                                    <option value="51-100">51-100</option>
+                                    <option value="100+">100+</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="website">Company Website</label>
+                            <input type="url" id="website" name="website" placeholder="https://www.example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="business-type">Business Type <span class="required">*</span></label>
+                            <select id="business-type" name="business-type" required>
+                                <option value="">Select</option>
+                                <option value="Sole Proprietorship">Sole Proprietorship</option>
+                                <option value="Partnership">Partnership</option>
+                                <option value="Corporation">Corporation</option>
+                                <option value="Limited Liability Company">Limited Liability Company</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-first-name">First Name <span class="required">*</span></label>
+                                <input type="text" id="contact-first-name" name="contact-first-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-last-name">Last Name <span class="required">*</span></label>
+                                <input type="text" id="contact-last-name" name="contact-last-name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="job-title">Job Title <span class="required">*</span></label>
+                            <input type="text" id="job-title" name="job-title" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="tel" id="mobile" name="mobile">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section">
+                        <h3>Business Address</h3>
+                        
+                        <div class="form-group">
+                            <label for="address-line1">Address Line 1 <span class="required">*</span></label>
+                            <input type="text" id="address-line1" name="address-line1" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address-line2">Address Line 2</label>
+                            <input type="text" id="address-line2" name="address-line2">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City <span class="required">*</span></label>
+                                <input type="text" id="city" name="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="state-province">State/Province <span class="required">*</span></label>
+                                <input type="text" id="state-province" name="state-province" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="postal-code">Postal/Zip Code <span class="required">*</span></label>
+                                <input type="text" id="postal-code" name="postal-code" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country <span class="required">*</span></label>
+                                <select id="country" name="country" required>
+                                    <option value="">Select Country</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <!-- Add more countries as needed -->
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <!-- Add more countries as needed -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section">
+                        <h3>Business Details</h3>
+                        
+                        <div class="form-group">
+                            <label for="business-description">Brief Description of Your Business <span class="required">*</span></label>
+                            <textarea id="business-description" name="business-description" rows="4" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Current Product Lines Carried <span class="required">*</span></label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="product-lines" value="GNSS Receivers"> GNSS Receivers</label>
+                                <label><input type="checkbox" name="product-lines" value="Total Stations"> Total Stations</label>
+                                <label><input type="checkbox" name="product-lines" value="Theodolites"> Theodolites</label>
+                                <label><input type="checkbox" name="product-lines" value="Digital Levels"> Digital Levels</label>
+                                <label><input type="checkbox" name="product-lines" value="Laser Scanners"> Laser Scanners</label>
+                                <label><input type="checkbox" name="product-lines" value="UAV/Drones"> UAV/Drones</label>
+                                <label><input type="checkbox" name="product-lines" value="Software"> Software</label>
+                                <label><input type="checkbox" name="product-lines" value="Other"> Other</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="brands-represented">Brands Currently Represented</label>
+                            <textarea id="brands-represented" name="brands-represented" rows="3"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sales-territory">Sales Territory <span class="required">*</span></label>
+                            <textarea id="sales-territory" name="sales-territory" rows="3" placeholder="Please describe your current or desired sales territory" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="dealer-tier">Dealer Tier Interest <span class="required">*</span></label>
+                            <select id="dealer-tier" name="dealer-tier" required>
+                                <option value="">Select</option>
+                                <option value="Authorized Dealer">Authorized Dealer</option>
+                                <option value="Premium Partner">Premium Partner</option>
+                                <option value="Elite Distributor">Elite Distributor</option>
+                                <option value="Not Sure">Not Sure</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section">
+                        <h3>Additional Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="referral-source">How did you hear about Zaelet?</label>
+                            <select id="referral-source" name="referral-source">
+                                <option value="">Select</option>
+                                <option value="Internet Search">Internet Search</option>
+                                <option value="Trade Show">Trade Show</option>
+                                <option value="Current Dealer">Current Dealer</option>
+                                <option value="Industry Publication">Industry Publication</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Word of Mouth">Word of Mouth</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="additional-comments">Additional Comments or Questions</label>
+                            <textarea id="additional-comments" name="additional-comments" rows="4"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="terms-agreement" name="terms-agreement" required>
+                                I agree to the <a href="#" class="terms-link">Terms and Conditions</a> <span class="required">*</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Submit Application</button>
+                        <button type="reset" class="reset-btn">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- What to Expect Section -->
+    <section class="what-to-expect">
+        <div class="container">
+            <div class="section-header">
+                <h2>What to Expect</h2>
+                <p>After submitting your application</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Application Review</h3>
+                        <p>Our dealer team will review your application within 3-5 business days</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Initial Consultation</h3>
+                        <p>A Zaelet representative will contact you to discuss your application and answer any questions</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Business Plan</h3>
+                        <p>We'll work together to develop a customized business plan for your market</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Agreement & Onboarding</h3>
+                        <p>Upon approval, we'll finalize the dealer agreement and begin the onboarding process</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="Images/ZAELET-logo.png" alt="Zaelet Precision Company">
+                    </a>
+                    <p>Precision Engineering for Geospatial Professionals</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="products/gnss.html">GNSS Receivers</a></li>
+                            <li><a href="products/total-station.html">Total Stations</a></li>
+                            <li><a href="products/theodolite.html">Theodolites</a></li>
+                            <li><a href="products/levels.html">Levels</a></li>
+                            <li><a href="products/software.html">Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html#about">About Us</a></li>
+                            <li><a href="under-construction.html">News & Events</a></li>
+                            <li><a href="under-construction.html">Contact Us</a></li>
+                            <li><a href="under-construction.html">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Global Offices</h4>
+                        <ul>
+                            <li>Shanghai, China (HQ)</li>
+                            <li>African Headquarters (Ghana)</li>
+                            <li>International Distributors</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="footer-newsletter">
+                            <h4>Subscribe to our Newsletter</h4>
+                            <form>
+                                <input type="email" placeholder="Enter your email">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zaelet Precision. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+        // Form validation and submission handling
+        document.getElementById('dealer-application-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic form validation
+            let isValid = true;
+            const requiredFields = this.querySelectorAll('[required]');
+            
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    isValid = false;
+                    field.classList.add('error');
+                } else {
+                    field.classList.remove('error');
+                }
+            });
+            
+            if (!isValid) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Form submission logic would go here
+            // For now, just show a success message
+            alert('Thank you for your application! We will contact you within 3-5 business days.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

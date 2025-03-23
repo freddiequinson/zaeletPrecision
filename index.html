@@ -15,56 +15,56 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <div class="header-content">
+            <div class="header-row">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="Images/ZAELET-logo.png" alt="Zaelet Logo">
+                        <img src="Images/ZAELET-logo.png" alt="Zaelet Precision">
                         <span class="company-name">Zaelet Precision</span>
                     </a>
                 </div>
-                <nav id="main-nav">
+                <nav>
                     <ul class="main-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#products" class="dropdown-toggle">Products <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
                                 <li><a href="products/gnss.html">GNSS Receivers</a></li>
                                 <li><a href="products/total-station.html">Total Stations</a></li>
                                 <li><a href="products/theodolite.html">Theodolites</a></li>
-                                <li><a href="products/levels.html">Levels</a></li>
-                                <li><a href="products/software.html">Software</a></li>
+                                <li><a href="products/levels.html">Digital Levels</a></li>
+                                <li><a href="products/software.html">Software Solutions</a></li>
+                                <li><a href="products/accessories.html">Accessories</a></li>
                             </ul>
                         </li>
                         <li><a href="#about">About Us</a></li>
-                        <li><a href="#news">News & Events</a></li>
-                        <li><a href="#support">Support</a></li>
+                        <li><a href="under-construction.html">News & Events</a></li>
+                        <li><a href="under-construction.html">Support</a></li>
+                        <li><a href="dealers.html">Dealers</a></li>
                     </ul>
                 </nav>
-                <div class="header-right">
-                    <div class="search-container">
-                        <form id="search-form">
-                            <input type="text" id="search-input" placeholder="Search products...">
-                            <button type="submit" id="search-button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </form>
-                        <div id="search-results" class="search-results"></div>
-                    </div>
-                    <a href="#contact" class="btn btn-primary desktop-contact-btn">Contact Us</a>
+                <div class="search-wrapper">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Search products..." class="search-input">
+                        <button type="submit" id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div id="search-results" class="search-results"></div>
                 </div>
-                <div class="mobile-header-actions">
-                    <div class="mobile-search-container">
-                        <form id="mobile-search-form">
-                            <input type="text" id="mobile-search-input" placeholder="Search products...">
-                            <button type="submit" id="mobile-search-button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </form>
-                        <div id="mobile-search-results" class="search-results"></div>
-                    </div>
-                    <a href="#contact" class="btn btn-primary mobile-contact-btn">Contact Us</a>
+                <div class="contact-wrapper">
+                    <a href="contact.html" class="contact-button">Contact Us</a>
                 </div>
             </div>
+        </div>
+        <div class="mobile-header-actions">
+            <div class="mobile-search-container">
+                <form id="mobile-search-form">
+                    <input type="text" id="mobile-search-input" placeholder="Search products...">
+                    <button type="submit" id="mobile-search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div id="mobile-search-results" class="search-results"></div>
+            </div>
+            <a href="contact.html" class="btn btn-primary mobile-contact-btn">Contact Us</a>
         </div>
         <div class="mobile-nav-bar">
             <a href="index.html" class="mobile-nav-item active">
@@ -132,6 +132,75 @@
         </div>
     </section>
 
+    <!-- Featured Product Section -->
+    <section class="featured-product">
+        <div class="container">
+            <div class="featured-product-content">
+                <div class="featured-product-image">
+                    <img src="Images/GNSS/Zaelet-F1-Mini.png" alt="Zaelet F1 Mini GNSS Receiver">
+                </div>
+                <div class="featured-product-info">
+                    <div class="featured-badge">Best Seller</div>
+                    <h2>Zaelet F1 Mini</h2>
+                    <p class="featured-subtitle">Portable Multi-Function GNSS Receiver</p>
+                    <p>The Zaelet F1 Mini is our ultimate lightweight and portable geodetic GNSS receiver with tilt measurement, built-in 4G connectivity, and a powerful Linux+Qualcomm platform.</p>
+                    <ul class="featured-highlights">
+                        <li><i class="fas fa-check-circle"></i> Full-system, full-frequency signal reception (BDS, GPS, GLONASS, Galileo)</li>
+                        <li><i class="fas fa-check-circle"></i> Built-in intelligent inertial navigation with tilt compensation</li>
+                        <li><i class="fas fa-check-circle"></i> 4G full network support with better compatibility and stability</li>
+                        <li><i class="fas fa-check-circle"></i> Compact magnesium alloy design with IP65 protection</li>
+                    </ul>
+                    <a href="products/gnss.html#f1-mini" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="special-offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Unbeatable Value</h2>
+                <p>Industry-leading quality at the most competitive prices worldwide</p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We offer the most competitive prices for premium geospatial equipment worldwide. If you find a better price elsewhere, we'll match it.</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>African Market Special</h3>
+                    <p>Special pricing and support packages designed specifically for African markets, including training, extended warranty, and local technical support.</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Volume Discounts</h3>
+                    <p>Substantial discounts available for bulk orders and institutional purchases. Contact our sales team for customized quotations.</p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Become a Dealer</h3>
+                    <p>Join our global network of authorized dealers with exclusive benefits, marketing support, and competitive margins.</p>
+                    <a href="dealers.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="cta-container">
+                <a href="#contact" class="btn">Contact Sales Team</a>
+                <a href="#dealers" class="btn btn-outline">Find Local Dealers</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Latest News Section -->
     <section class="news-section">
         <div class="container">
@@ -147,7 +216,7 @@
                         <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="news-image">
-                        <img src="Images/GNSS/Zylet-F1-Pro.jpg" alt="GeoExpo 2025">
+                        <img src="Images/GNSS/Zaelet-F1-Pro.jpg" alt="GeoExpo 2025">
                     </div>
                 </div>
                 <div class="news-item">
@@ -182,7 +251,7 @@
                     <div class="product-item">
                         <div class="product-image">
                             <a href="products/gnss.html">
-                                <img src="Images/GNSS/Zylet-F1-Pro.jpg" alt="Zaelet F1 Pro">
+                                <img src="Images/GNSS/Zaelet-F1-Pro.jpg" alt="Zaelet F1 Pro">
                             </a>
                         </div>
                         <div class="product-info">
@@ -361,13 +430,12 @@
                 <div class="contact-item">
                     <h3>Shanghai Headquarters</h3>
                     <p>123 Science Avenue<br>Shanghai Technology Park<br>Shanghai, China</p>
-                    <p><i class="fas fa-phone"></i> +86 23355211880</p>
                     <p><i class="fas fa-envelope"></i> info@zaelet.com</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Ghana Office</h3>
+                    <h3>African Headquarters (Ghana)</h3>
                     <p>45 Independence Road<br>Accra Business District<br>Accra, Ghana</p>
-                    <p><i class="fas fa-phone"></i> +233 23355211880</p>
+                    <p><i class="fas fa-phone"></i> +233552511880</p>
                     <p><i class="fas fa-envelope"></i> africa@zaelet.com</p>
                 </div>
                 <div class="contact-item">
@@ -412,16 +480,16 @@
                         <h4>Company</h4>
                         <ul>
                             <li><a href="#about">About Us</a></li>
-                            <li><a href="#news">News & Events</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                            <li><a href="#">Support</a></li>
+                            <li><a href="under-construction.html">News & Events</a></li>
+                            <li><a href="under-construction.html">Contact Us</a></li>
+                            <li><a href="under-construction.html">Support</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
                         <h4>Global Offices</h4>
                         <ul>
                             <li>Shanghai, China (HQ)</li>
-                            <li>Accra, Ghana</li>
+                            <li>African Headquarters (Ghana)</li>
                             <li>International Distributors</li>
                         </ul>
                     </div>

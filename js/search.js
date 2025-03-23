@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Product data for search
     const products = [
         { name: 'Zaelet F1 Pro', category: 'GNSS Receivers', url: basePath + 'products/gnss.html' },
+        { name: 'Zaelet F1 Mini', category: 'GNSS Receivers', url: basePath + 'products/gnss.html#f1-mini' },
         { name: 'Zaelet R2 Total Station', category: 'Total Stations', url: basePath + 'products/total-station.html' },
         { name: 'Zaelet T3 Theodolite', category: 'Theodolites', url: basePath + 'products/theodolite.html' },
         { name: 'Zaelet L4 Digital Level', category: 'Levels', url: basePath + 'products/levels.html' },
