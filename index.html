@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaelet Precision Company - Geospatial Instruments for Engineers</title>
+    <link rel="icon" href="Images/ZAELET-logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/ZAELET-logo.png" alt="Zaelet Logo">
+                        <span class="company-name">Zaelet Precision</span>
+                    </a>
+                </div>
+                <nav id="main-nav">
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#products" class="dropdown-toggle">Products <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products/gnss.html">GNSS Receivers</a></li>
+                                <li><a href="products/total-station.html">Total Stations</a></li>
+                                <li><a href="products/theodolite.html">Theodolites</a></li>
+                                <li><a href="products/levels.html">Levels</a></li>
+                                <li><a href="products/software.html">Software</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#news">News & Events</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <div class="search-container">
+                        <form id="search-form">
+                            <input type="text" id="search-input" placeholder="Search products...">
+                            <button type="submit" id="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary desktop-contact-btn">Contact Us</a>
+                </div>
+                <div class="mobile-header-actions">
+                    <div class="mobile-search-container">
+                        <form id="mobile-search-form">
+                            <input type="text" id="mobile-search-input" placeholder="Search products...">
+                            <button type="submit" id="mobile-search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <div id="mobile-search-results" class="search-results"></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary mobile-contact-btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav-bar">
+            <a href="index.html" class="mobile-nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#products" class="mobile-nav-item">
+                <i class="fas fa-box"></i>
+                <span>Products</span>
+            </a>
+            <a href="#support" class="mobile-nav-item">
+                <i class="fas fa-headset"></i>
+                <span>Support</span>
+            </a>
+            <a href="#news" class="mobile-nav-item">
+                <i class="fas fa-newspaper"></i>
+                <span>News</span>
+            </a>
+            <a href="#contact" class="mobile-nav-item">
+                <i class="fas fa-phone"></i>
+                <span>Contact</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Search Overlay -->
+    <div id="search-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h2>Precision Engineering for Geospatial Professionals</h2>
+                    <p>Advanced instruments for surveying, mapping, and geospatial data collection</p>
+                    <a href="#products" class="btn">Explore Products</a>
+                </div>
+                <div class="slide-image" style="background-image: url('Images/GNSS/R26-banner.jpg');"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Cutting-Edge GNSS Technology</h2>
+                    <p>High-precision positioning solutions for professional surveyors</p>
+                    <a href="#gnss" class="btn">Learn More</a>
+                </div>
+                <div class="slide-image" style="background-image: url('Images/GNSS/r27banner.jpg');"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Total Station Solutions</h2>
+                    <p>Advanced measurement technology for precise surveying</p>
+                    <a href="#total-station" class="btn">Discover More</a>
+                </div>
+                <div class="slide-image" style="background-image: url('Images/Total Station/RQSHeader.jpg');"></div>
+            </div>
+            <div class="controls">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="indicators">
+                    <span class="indicator active"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                </div>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest News</h2>
+            </div>
+            <div class="news-grid">
+                <div class="news-item">
+                    <div class="news-date">March 15, 2025</div>
+                    <div class="news-content">
+                        <h3>Zaelet Showcases New GNSS Technology at GeoExpo 2025</h3>
+                        <p>Zaelet Precision Company impressed attendees with our latest GNSS receivers and software solutions.</p>
+                        <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="news-image">
+                        <img src="Images/GNSS/Zylet-F1-Pro.jpg" alt="GeoExpo 2025">
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">February 20, 2025</div>
+                    <div class="news-content">
+                        <h3>Introducing the New R27 GNSS Receiver</h3>
+                        <p>Our latest GNSS receiver offers unparalleled accuracy and reliability for surveying professionals.</p>
+                        <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="news-image">
+                        <img src="Images/GNSS/R27-GNSS-REceiver.png" alt="R27 GNSS Receiver">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Products</h2>
+            </div>
+            
+            <!-- GNSS Receivers -->
+            <div id="gnss" class="product-category">
+                <div class="category-header">
+                    <h3>GNSS Receivers</h3>
+                    <a href="products/gnss.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/gnss.html">
+                                <img src="Images/GNSS/Zylet-F1-Pro.jpg" alt="Zaelet F1 Pro">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/gnss.html">Zaelet F1 Pro</a></h4>
+                            <p>Compact smart GNSS receiver with latest technologies</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/gnss.html">
+                                <img src="Images/GNSS/R26-Base-Station.png" alt="R26 Base Station">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/gnss.html">R26 Base Station</a></h4>
+                            <p>High-performance GNSS base station with full GNSS technology</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/gnss.html">
+                                <img src="Images/GNSS/R61-GNSS-Receiver.png" alt="R61 GNSS Receiver">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/gnss.html">R61 GNSS Receiver</a></h4>
+                            <p>Versatile network reference station receiver</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/gnss.html">
+                                <img src="Images/GNSS/R27-GNSS-REceiver.png" alt="R27 GNSS Receiver">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/gnss.html">R27 GNSS Receiver</a></h4>
+                            <p>Compact GNSS receiver for high-precision applications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Total Stations -->
+            <div id="total-station" class="product-category">
+                <div class="category-header">
+                    <h3>Total Stations</h3>
+                    <a href="products/total-station.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/total-station.html">
+                                <img src="Images/Total Station/RNS.png" alt="RNS Total Station">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/total-station.html">RNS Total Station</a></h4>
+                            <p>Android OS with 2" angle accuracy and 1000m range</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/total-station.html">
+                                <img src="Images/Total Station/RQS.png" alt="RQS Total Station">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/total-station.html">RQS Total Station</a></h4>
+                            <p>1500m non-prism range with 2" angle accuracy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Theodolites -->
+            <div id="theodolite" class="product-category">
+                <div class="category-header">
+                    <h3>Theodolites</h3>
+                    <a href="products/theodolite.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/theodolite.html">
+                                <img src="Images/Thoedolite/Disteo23.png" alt="Disteo23 Theodolite">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/theodolite.html">Disteo23</a></h4>
+                            <p>2" angle accuracy with 300m distance range</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Levels -->
+            <div id="levels" class="product-category">
+                <div class="category-header">
+                    <h3>Levels</h3>
+                    <a href="products/levels.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/levels.html">
+                                <img src="Images/Levels/RAL4.png" alt="RAL4 Level">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/levels.html">RAL4</a></h4>
+                            <p>1.5mm accuracy with 32X magnification</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Software -->
+            <div id="software" class="product-category">
+                <div class="category-header">
+                    <h3>Software</h3>
+                    <a href="products/software.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/software.html">
+                                <img src="Images/Software/tSurvey.png" alt="tSurvey Software">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/software.html">tSurvey</a></h4>
+                            <p>Modular engineering surveying software for Android</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="products/software.html">
+                                <img src="Images/Software/RTK Go.png" alt="RTK Go Software">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="products/software.html">RTK Go</a></h4>
+                            <p>RTK positioning software solution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Zaelet Precision Company</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Zaelet Precision Company is a leading global manufacturer of high-precision geospatial instruments for engineering professionals. With our headquarters in Shanghai, China and an active branch in Accra, Ghana, we are strategically positioned to serve customers across Asia, Africa, and beyond.</p>
+                    <p>With a focus on innovation and quality, we provide cutting-edge solutions for surveying, mapping, and geospatial data collection to clients worldwide. Our international team of engineers and specialists ensures that our products meet the diverse needs of professionals across different regions and environments.</p>
+                    <p>Our comprehensive range of products includes GNSS receivers, total stations, theodolites, levels, and specialized software solutions designed to meet the diverse needs of our global customer base. Through our expanding network of distributors and partners, we're committed to bringing precision technology to every corner of the world.</p>
+                    <a href="#" class="btn">Learn more about us</a>
+                </div>
+                <div class="about-image">
+                    <img src="Images/GNSS/R26-banner.jpg" alt="Zaelet Precision Company">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Shanghai Headquarters</h3>
+                    <p>123 Science Avenue<br>Shanghai Technology Park<br>Shanghai, China</p>
+                    <p><i class="fas fa-phone"></i> +86 23355211880</p>
+                    <p><i class="fas fa-envelope"></i> info@zaelet.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Ghana Office</h3>
+                    <p>45 Independence Road<br>Accra Business District<br>Accra, Ghana</p>
+                    <p><i class="fas fa-phone"></i> +233 23355211880</p>
+                    <p><i class="fas fa-envelope"></i> africa@zaelet.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Download</h3>
+                    <ul class="download-links">
+                        <li><a href="#">GNSS Receiver Brochure</a></li>
+                        <li><a href="#">Total Station Catalog</a></li>
+                        <li><a href="#">Software Solutions Guide</a></li>
+                        <li><a href="#">Company Profile</a></li>
+                    </ul>
+                </div>
+                <div class="contact-item">
+                    <h3>Global Distribution</h3>
+                    <p>Zaelet products are available worldwide through our network of authorized distributors and partners. Contact us to find your nearest dealer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="Images/ZAELET-logo.png" alt="Zaelet Precision Company">
+                    </a>
+                    <p>Precision Geospatial Instruments</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="products/gnss.html">GNSS Receivers</a></li>
+                            <li><a href="products/total-station.html">Total Stations</a></li>
+                            <li><a href="products/theodolite.html">Theodolites</a></li>
+                            <li><a href="products/levels.html">Levels</a></li>
+                            <li><a href="products/software.html">Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#news">News & Events</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Global Offices</h4>
+                        <ul>
+                            <li>Shanghai, China (HQ)</li>
+                            <li>Accra, Ghana</li>
+                            <li>International Distributors</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="footer-newsletter">
+                            <h4>Subscribe to our Newsletter</h4>
+                            <form>
+                                <input type="email" placeholder="Enter your email">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zaelet Precision Company. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Hero slider
+            $('.hero-slider').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                fade: true,
+                speed: 1000
+            });
+        });
+    </script>
+</body>
+</html>

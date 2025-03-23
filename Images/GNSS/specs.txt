@@ -1,0 +1,160 @@
+Zaelet F1 Pro
+Zaelet F1 Pro is a new generation of compact smart GNSS receivers designed for various surveying projects using latest GNSS features. This receiver equipped with modern required technologies such as Bluetooth module, IMU tilt sensor, 7000mAh lithium-ion internal battery, etc. F1 Pro is able to work in different work modes (Network RTK, Static & PPK) based on different required accuracy & conditions. F1 Pro is the most economic GNSS package you can purchase to fulfill your technical needs on field!
+
+R26 Base Station
+The R26 base station features excellent performance with full GNSS technology offers best-in-class GNSS signal tracking and performs GNSS surveys beyond the usual limitations. The R26L GNSS features the latest innovations, the inertial module for automatic tilt compensation in a very compact design.
+Linux intelligent operating system, supporting voice control, WEBUI, and WIFI connection. The Rover is equipped with a Type-C charger and supports fast charging. The Rover supports SIM card insertion to use the network, and the base station is equipped with a standard LEMO connector.
+
+R61 GNSS Receiver
+The R61 is a versatile GNSS network reference station receiver featuring multiple communication methods. It supports seamless switching between wired internet and 4G wireless networks, ensuring high reliability and stability in network communication. 
+Product Parameters
+Signal Tracking:
+
+BDS: B1I/B2I/B3I/B1C/B2a/B2b
+
+GPS: L1C/A/L1C/L2C/L2P（Y）/L5
+
+GLONASS: G1/G2/G3
+
+Galileo: E1/E5a/E5b/E6
+
+QZSS: L1C/A/L1C/L2C/L5
+
+NavIC: L5
+
+SBAS: L1C/A
+
+Cold Start Time: <12s
+
+Initialization Time: <5s (typical)
+
+RTK Initialization Reliability: >99.9%
+
+Reacquisition Time: <1s
+
+Communication Parameters：
+
+GSM 4G module
+
+1×RJ45 (100M Ethernet)
+
+single point positioning:
+
+Horizontal: 1.5m
+
+Vertical: 2.5m
+
+RTK Accuracy:
+
+8mm+1ppm(RMS)
+
+15mm+1ppm(RMS)
+
+Static Accuracy:
+
+2.5mm+1ppm(RMS)
+
+5mm+1ppm(RMS)
+
+Velocity Accuracy： 0.03m/s
+
+Differential Data： RTCM 3.X
+
+Positioning Data： NMEA-0183
+
+Static Data： Binary
+
+Network Protocol： TCP/NTRIP
+
+Power Consumption： ≤3.0W
+
+Power Supply Voltage： 9～36V DC
+
+Data Update Rate： 20Hz
+
+Baud Rate： 9600～460800
+
+
+R27 GNSS Receiver
+The R27 GNSS Receive is a versatile and compact GNSS receiver equipped with a full-frequency GNSS antenna, high-precision positioning board, inertial navigation module, and integrated radio module. It can function as both a rover and a base station, offering high precision, low power consumption, and a portable, easy-to-use design. The R27 is ideal for applications in machine control, surveying, precision agriculture, GIS, marine surveying, construction, mining, aerial photography, and UAV operations.
+
+Product Parameters
+Signal Tracking:
+
+BDS: B1I/B2I/B3I/B1C/B2a/B2b
+
+GPS: L1C/A/L2P(Y)/L2C/L5
+
+GLONASS: G1/G2/G3
+
+Galileo: E1/E5a/E5b/E6
+
+QZSS: L1/L2/L5
+
+Cold Start Time: <12s
+
+Initialization Time: <5s (typical)
+
+RTK Initialization Reliability: >99.9%
+
+Reacquisition Time: <1s
+
+single point positioning:
+
+Horizontal: 1.5m
+
+Vertical: 2.5m
+
+RTK Accuracy:
+
+8mm+1ppm(RMS)
+
+15mm+1ppm(RMS)
+
+Static Accuracy:
+
+2.5mm+1ppm(RMS)
+
+5mm+1ppm(RMS)
+
+speed accuracy:0.03m/s
+
+Differential Data: RTCM3.X
+
+Positioning Data: NMEA-0183
+
+Static Data: Binary
+
+Power Consumption:
+
+Mobile Station: ≤2.0W
+
+Base Station: ≤2.2W
+
+Battery Life:
+
+Mobile Station: ≥15h
+
+Base Station: ≥9h
+
+Radio Frequency: 410-470MHz
+
+Input Voltage: 9-36V DC
+
+Battery Capacity: 3350mAh
+
+Radio Power: 0.5W/1.5W
+
+Storage Capacity: 32GB
+
+Data Refresh Rate: Default 1Hz, up to 50Hz
+
+Interface Types:Type-C, SMA connectors
+
+Bluetooth: BT4.1, backward compatible with BT2.x, supports Windows/Android/iOS systems
+
+WiFi: IEEE 802.11 a/b/g/n
+
+Tilt Angle: 0-60°
+
+Tilt Accuracy: 2.5cm (within 30°)

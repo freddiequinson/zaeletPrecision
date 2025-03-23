@@ -1,0 +1,4 @@
+tSurvey
+Engineering Surveying software
+tSurvey is a modular, customizable, easy-to-use surveying software developed based on the Android. It integrates a range of practical measurement and stakeout functions from different industries, including control point survey, surveying and mapping, CAD mapping, point stakeout, line stakeout, polygon stakeout, road stakeout, electric lines stakeout, electric towers stakeout, GIS data collection, and more. With a high-performance graphics engine and a highly optimized coordinate transformation system, it provides users with an unparalleled surveying 
+

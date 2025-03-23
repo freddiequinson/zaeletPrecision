@@ -1,0 +1,187 @@
+/* Search styles for Zaelet website */
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+    width: 250px;
+}
+
+#search-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #0052a3;
+}
+
+#search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+#search-overlay.active {
+    display: block;
+}
+
+.search-results {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 350px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 5px;
+}
+
+#search-overlay.active .search-results {
+    display: block !important;
+}
+
+.search-results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results-list li {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.search-results-list li:last-child {
+    border-bottom: none;
+}
+
+.search-results-list a {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.search-results-list a:hover {
+    background-color: #f5f5f5;
+}
+
+.product-name {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.product-category {
+    font-size: 12px;
+    color: #666;
+}
+
+.highlight {
+    background-color: #ffffa0;
+    font-weight: bold;
+}
+
+.no-results {
+    padding: 15px;
+    text-align: center;
+    color: #666;
+}
+
+/* Mobile search results styles */
+.mobile-search-container {
+    position: relative;
+}
+
+#mobile-search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #search-input {
+        width: 150px;
+    }
+    
+    #search-input:focus {
+        width: 180px;
+    }
+    
+    .search-results {
+        width: 300px;
+        right: -50px;
+    }
+    
+    .search-results {
+        width: 100%;
+        left: 0;
+    }
+    
+    .results-list {
+        padding: 10px;
+    }
+    
+    .result-item a {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search-container {
+        position: static;
+    }
+    
+    .search-results {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}

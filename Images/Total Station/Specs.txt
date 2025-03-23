@@ -1,0 +1,2 @@
+RNS Specs: Android 11 OS RAM 4GB, ROM 64GB, Dist 1000m NP Range 2" angle accuracy 5.5" Color & touch screen Bluetooth Micro SIM card supports 3G/4G
+RQS Specs: Co-work with Android App, 1500m non-prism range, 2" angle accuracy, Dual axis compensation, ATMO Senser, USB 2.0 I/O port

@@ -1,0 +1,15 @@
+RAL4 Specs: 
+Accuracy: 1.5mm Magnification: 32X Magnetic Damped Compensator Compensation Accuracy: 0.4" Compensation Range: +15' IP54
+Magnification : 32X
+Standard 1km Deviation: 1.0mm
+Effective Aperture: 40mm 
+Image: Erect
+Field of View: 1^(o)30^(')
+Min. Focus Distance: 0.6m
+Multi. Costant: 100
+Add. Constant: 0
+Compensator Type: Magnetic Damped 
+Compensation Accuracy: 0.4"
+Compensation Range +-15'
+Circular Graduation: 360^(o) or 400gon
+Protection Class: IP54
