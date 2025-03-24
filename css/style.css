@@ -1812,3 +1812,95 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+/* Affordability Banner */
+.affordability-banner {
+    background: linear-gradient(135deg, #0056b3, #003366);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.price-guarantee {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.price-guarantee h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    letter-spacing: 2px;
+}
+
+.price-guarantee h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.price-guarantee p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.price-badges {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffcc00;
+}
+
+.badge .value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.badge .label {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .price-badges {
+        gap: 15px;
+    }
+    
+    .badge {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .badge .value {
+        font-size: 1.5rem;
+    }
+    
+    .badge .label {
+        font-size: 0.7rem;
+    }
+    
+    .price-guarantee h2 {
+        font-size: 2rem;
+    }
+    
+    .price-guarantee h3 {
+        font-size: 1.5rem;
+    }
+}
