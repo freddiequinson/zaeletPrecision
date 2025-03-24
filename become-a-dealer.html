@@ -10,7 +10,7 @@
     <link rel="icon" href="Images/ZAELET-logo.png" type="image/png">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
         <div class="container">
             <div class="header-row">
@@ -31,12 +31,14 @@
                                 <li><a href="products/theodolite.html">Theodolites</a></li>
                                 <li><a href="products/levels.html">Digital Levels</a></li>
                                 <li><a href="products/software.html">Software Solutions</a></li>
+                                <li><a href="products/radios.html">Radio Communication</a></li>
                                 <li><a href="products/accessories.html">Accessories</a></li>
                             </ul>
                         </li>
                         <li><a href="index.html#about">About Us</a></li>
                         <li><a href="under-construction.html">News & Events</a></li>
                         <li><a href="under-construction.html">Support</a></li>
+                        <li class="active"><a href="become-a-dealer.html">Become a Dealer</a></li>
                     </ul>
                 </nav>
                 <div class="search-wrapper">
@@ -52,10 +54,43 @@
             </div>
         </div>
         <div class="mobile-header-actions">
-            <button id="mobile-search-toggle"><i class="fas fa-search"></i></button>
-            <button id="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+            <div class="mobile-search-container">
+                <form id="mobile-search-form">
+                    <input type="text" id="mobile-search-input" placeholder="Search products...">
+                    <button type="submit" id="mobile-search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div id="mobile-search-results" class="search-results"></div>
+            </div>
+            <a href="under-construction.html" class="btn btn-primary mobile-contact-btn">Contact Us</a>
+        </div>
+        <div class="mobile-nav-bar">
+            <a href="index.html" class="mobile-nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="mobile-nav-item">
+                <i class="fas fa-box"></i>
+                <span>Products</span>
+            </a>
+            <a href="under-construction.html" class="mobile-nav-item">
+                <i class="fas fa-headset"></i>
+                <span>Support</span>
+            </a>
+            <a href="under-construction.html" class="mobile-nav-item">
+                <i class="fas fa-newspaper"></i>
+                <span>News</span>
+            </a>
+            <a href="under-construction.html" class="mobile-nav-item">
+                <i class="fas fa-phone"></i>
+                <span>Contact</span>
+            </a>
         </div>
     </header>
+
+    <!-- Search Overlay -->
+    <div id="search-overlay"></div>
 
     <!-- Page Banner -->
     <section class="page-banner">

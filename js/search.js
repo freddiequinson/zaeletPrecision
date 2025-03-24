@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Zaelet R2 Total Station', category: 'Total Stations', url: basePath + 'products/total-station.html' },
         { name: 'Zaelet T3 Theodolite', category: 'Theodolites', url: basePath + 'products/theodolite.html' },
         { name: 'Zaelet L4 Digital Level', category: 'Levels', url: basePath + 'products/levels.html' },
+        { name: 'UHF eRadio HX-DU8616D', category: 'Radio Communication', url: basePath + 'products/radios.html#hx-du8616d' },
+        { name: 'ZR-450 UHF Radio', category: 'Radio Communication', url: basePath + 'products/radios.html#zr-450' },
+        { name: 'ZR-200 Compact Radio', category: 'Radio Communication', url: basePath + 'products/radios.html#zr-200' },
         { name: 'Zaelet Survey Pro', category: 'Software', url: basePath + 'products/software.html' },
         { name: 'Zaelet Data Manager', category: 'Software', url: basePath + 'products/software.html' },
         { name: 'Zaelet GIS Processor', category: 'Software', url: basePath + 'products/software.html' }

@@ -1,0 +1,68 @@
+UHF eRadio HX-DU8616D
+Smart and High Efficient Radio
+Modem for Fast Data Transmission
+HX-DU8616D is an advanced, high speed, high power, wireless data link built to withstand the demanding conditions of GNSS/RTK surveying and precise positioning. Due to the 35W high transmitting power, connection distances up to 20 kilometers can be covered in favorable conditions. It is designed with a ruggedized IP67 weatherproof enclosure to withstand extreme environments.
+Parameters
+GENERAL
+Frequency
+410MHz~470MHz
+Operating Mode
+Transceiver
+Transmitte
+Radio Repeater
+Channel Width
+12.5KHz/25KHz
+Channels
+Up to 32 programmable channels (user selectable)
+Operating Voltage
+9V~16V
+Power Consumption（Typical）
+Transmit Output Power H:(35W) 85W@12V DC
+Transmit Output Power M:(22W) 60W@12V DC
+Transmit Output Power L: (5W) 35W@12V DC
+Sleep State 2W@12V DC
+Frequency Stability
+<±1ppm
+Ingress Protection Rating
+IP67
+
+
+STRUCTURAL
+Dimension
+175(H)×130(W)×86.5(D)mm
+Weight
+2kg
+Operating Temperature
+-40℃ to +65℃
+Storage Temperature
+-50℃ to +85℃
+Connector
+TNC female
+Data Connector
+LEMO 5pin
+
+TRANSMITTER
+RF Output Power
+H:35W 45.4±0.5dBm @DC 12V
+M:22W 43.4±0.5dBm @DC 12V
+L:5W 37±1dBm @DC12V
+RF Power Stability
+±1dB
+
+RECEIVER
+Sensitivity
+<-114dBm@BER 10-5，9600bps
+
+DATA MODEM
+Data Rate
+4800bps/9600bps/19200bps
+Data Speed of Serial Interface
+9600、19200、38400、57600、115200bps
+Modulation
+GMSK/4FSK
+
+BLUETOOTH
+Bluetooth Version
+2.0/4.0
+Bluetooth Antenna
+Built-in
