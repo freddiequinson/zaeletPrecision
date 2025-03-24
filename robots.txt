@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /Images/Brochures/
+
+Sitemap: https://zaeletprecision.com/sitemap.xml
