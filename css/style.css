@@ -411,6 +411,10 @@ nav {
         display: none;
     }
     
+    .search-wrapper {
+        display: none;
+    }
+    
     .contact-button {
         display: none;
     }
