@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Levels | Zaelet Precision Company</title>
+    <title>Digital & Auto Levels | Zaelet Precision Company</title>
+    <link rel="icon" href="../Images/ZAELET-logo.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/product-page.css">
     <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -14,46 +16,79 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <div class="header-content">
+            <div class="header-row">
                 <div class="logo">
                     <a href="../index.html">
-                        <img src="../Images/ZAELET-logo.png" alt="Zaelet Logo">
+                        <img src="../Images/ZAELET-logo.png" alt="Zaelet Precision">
+                        <span class="company-name">Zaelet Precision</span>
                     </a>
                 </div>
-                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <nav id="main-nav">
+                <nav>
                     <ul class="main-menu">
                         <li><a href="../index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Products <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
+                        <li class="has-dropdown active">
+                            <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
                                 <li><a href="gnss.html">GNSS Receivers</a></li>
                                 <li><a href="total-station.html">Total Stations</a></li>
                                 <li><a href="theodolite.html">Theodolites</a></li>
-                                <li><a href="levels.html">Levels</a></li>
-                                <li><a href="software.html">Software</a></li>
+                                <li class="active"><a href="levels.html">Digital Levels</a></li>
+                                <li><a href="software.html">Software Solutions</a></li>
+                                <li><a href="radios.html">Radio Communication</a></li>
+                                <li><a href="accessories.html">Accessories</a></li>
                             </ul>
                         </li>
                         <li><a href="../index.html#about">About Us</a></li>
-                        <li><a href="../index.html#news">News & Events</a></li>
-                        <li><a href="../index.html#support">Support</a></li>
+                        <li><a href="../under-construction.html">News & Events</a></li>
+                        <li><a href="../under-construction.html">Support</a></li>
+                        <li><a href="../dealers.html">Dealers</a></li>
                     </ul>
                 </nav>
-                <div class="header-right">
-                    <div class="search-container">
-                        <form id="search-form">
-                            <input type="text" id="search-input" placeholder="Search products...">
-                            <button type="submit" id="search-button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </form>
-                        <div id="search-results" class="search-results"></div>
-                    </div>
-                    <a href="../index.html#contact" class="btn btn-primary">Contact Us</a>
+                <div class="search-wrapper">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Search products..." class="search-input">
+                        <button type="submit" id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div id="search-results" class="search-results"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <a href="../contact.html" class="contact-button">Contact Us</a>
                 </div>
             </div>
+        </div>
+        <div class="mobile-header-actions">
+            <div class="mobile-search-container">
+                <form id="mobile-search-form">
+                    <input type="text" id="mobile-search-input" placeholder="Search products...">
+                    <button type="submit" id="mobile-search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div id="mobile-search-results" class="search-results"></div>
+            </div>
+            <a href="../contact.html" class="btn btn-primary mobile-contact-btn">Contact Us</a>
+        </div>
+        <div class="mobile-nav-bar">
+            <a href="../index.html" class="mobile-nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="mobile-nav-item active">
+                <i class="fas fa-box"></i>
+                <span>Products</span>
+            </a>
+            <a href="../under-construction.html" class="mobile-nav-item">
+                <i class="fas fa-headset"></i>
+                <span>Support</span>
+            </a>
+            <a href="../under-construction.html" class="mobile-nav-item">
+                <i class="fas fa-newspaper"></i>
+                <span>News</span>
+            </a>
+            <a href="../contact.html" class="mobile-nav-item">
+                <i class="fas fa-phone"></i>
+                <span>Contact</span>
+            </a>
         </div>
     </header>
 
@@ -61,11 +96,11 @@
     <div id="search-overlay"></div>
 
     <!-- Page Banner -->
-    <section class="page-banner" style="background-image: url('../Images/Levels/RAL4-banner.jpg');">
+    <section class="page-banner" style="background-image: url('../Images/Levels/levels-banner.jpg');">
         <div class="container">
             <div class="banner-content">
-                <h1>Levels</h1>
-                <p>High-precision leveling instruments from Zaelet Precision Company for accurate elevation measurement.</p>
+                <h1>Digital & Auto Levels</h1>
+                <p>High-precision leveling instruments for construction and surveying</p>
             </div>
         </div>
     </section>
@@ -76,7 +111,7 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#">Products</a></li>
-                <li>Levels</li>
+                <li>Digital & Auto Levels</li>
             </ul>
         </div>
     </div>
@@ -85,8 +120,8 @@
     <section class="product-overview">
         <div class="container">
             <div class="section-header">
-                <h2>Levels</h2>
-                <p>Zaelet's precision levels provide accurate elevation measurements for construction, surveying, and engineering applications, ensuring reliable results in the field.</p>
+                <h2>Digital & Auto Levels</h2>
+                <p>Zaelet's digital and automatic levels provide precise height measurements for various surveying and construction applications.</p>
             </div>
         </div>
     </section>
@@ -94,199 +129,193 @@
     <!-- Product Details -->
     <section class="product-details">
         <div class="container">
-            <!-- RAL4 Level -->
+            <!-- ZDL-32 Digital Level -->
             <div class="product-detail-item">
                 <div class="product-image">
-                    <img src="../Images/Levels/RAL4.png" alt="RAL4 Level">
+                    <img src="../Images/Levels/ZDL-32.jpg" alt="ZDL-32 Digital Level">
                 </div>
                 <div class="product-info">
-                    <h2>RAL4 Automatic Level</h2>
-                    <p class="product-subtitle">High-Precision Automatic Level</p>
+                    <h2>ZDL-32 Digital Level</h2>
+                    <p class="product-subtitle">High-Precision Digital Level</p>
                     <div class="product-description">
-                        <p>The RAL4 is a high-precision automatic level designed for professional surveyors and engineers who require accurate elevation measurements. With its 1.5mm accuracy per 1km of double leveling and 32X magnification, the RAL4 delivers exceptional performance for construction layout, topographic surveys, and other precision applications.</p>
-                        <p>The RAL4 features a magnetic-damped compensator that automatically levels the line of sight, ensuring accurate readings even in challenging conditions. Its robust construction and water-resistant design make it ideal for use in various environments.</p>
-                    </div>
-                    <div class="product-specs">
-                        <h3>Technical Specifications</h3>
-                        <div class="specs-grid">
-                            <div class="spec-group">
-                                <h4>Accuracy</h4>
-                                <ul>
-                                    <li>1.5mm per 1km double leveling</li>
-                                </ul>
-                            </div>
-                            <div class="spec-group">
-                                <h4>Telescope</h4>
-                                <ul>
-                                    <li>Magnification: 32X</li>
-                                    <li>Field of view: 1°20'</li>
-                                    <li>Minimum focus: 0.3m</li>
-                                </ul>
-                            </div>
-                            <div class="spec-group">
-                                <h4>Compensator</h4>
-                                <ul>
-                                    <li>Type: Magnetic-damped</li>
-                                    <li>Setting accuracy: ±0.3"</li>
-                                    <li>Working range: ±15'</li>
-                                </ul>
-                            </div>
-                            <div class="spec-group">
-                                <h4>Physical</h4>
-                                <ul>
-                                    <li>Weight: 1.8kg</li>
-                                    <li>Dimensions: 200 x 135 x 130mm</li>
-                                    <li>Water resistance: IP54</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <p>The ZDL-32 digital level is designed for high-precision leveling tasks in construction and surveying projects. With its advanced digital technology and user-friendly interface, it provides fast and accurate measurements.</p>
+                        <p>Featuring automatic height and distance measurements, internal memory for data storage, and USB data transfer capability, the ZDL-32 streamlines your leveling workflows.</p>
                     </div>
                     <div class="product-features">
                         <h3>Key Features</h3>
                         <ul>
-                            <li>High-precision 1.5mm accuracy per 1km of double leveling</li>
-                            <li>Powerful 32X magnification for clear viewing</li>
-                            <li>Magnetic-damped compensator for automatic leveling</li>
-                            <li>Water and dust resistant (IP54 rated)</li>
-                            <li>Compact and lightweight design for easy transport</li>
-                            <li>Durable construction for reliable field performance</li>
-                        </ul>
-                    </div>
-                    <div class="product-applications">
-                        <h3>Applications</h3>
-                        <ul>
-                            <li>Construction layout and monitoring</li>
-                            <li>Topographic surveying</li>
-                            <li>Elevation control for infrastructure projects</li>
-                            <li>Foundation setting and verification</li>
-                            <li>Precise leveling for engineering applications</li>
+                            <li>0.7mm/km double-run leveling accuracy</li>
+                            <li>2-second electronic measurement</li>
+                            <li>Internal memory for 2,000 measurements</li>
+                            <li>USB data transfer</li>
+                            <li>Large LCD display with illumination</li>
+                            <li>20-hour battery life</li>
                         </ul>
                     </div>
                     <div class="product-cta">
-                        <a href="../contact.html" class="btn btn-primary">Request a Quote</a>
-                        <a href="../Images/Brochures/Levels/RAL4-Brochure.html" class="btn btn-outline" target="_blank"><i class="fas fa-file-alt"></i> View Brochure</a>
+                        <a href="../contact.html" class="btn">Request Quote</a>
+                        <a href="../Images/Brochures/Levels/ZDL-32-Brochure.html" class="btn btn-outline" target="_blank"><i class="fas fa-file-alt"></i> View Brochure</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ZAL-32 Auto Level -->
+            <div class="product-detail-item">
+                <div class="product-image">
+                    <img src="../Images/Levels/ZAL-32.jpg" alt="ZAL-32 Auto Level">
+                </div>
+                <div class="product-info">
+                    <h2>ZAL-32 Auto Level</h2>
+                    <p class="product-subtitle">Professional Automatic Level</p>
+                    <div class="product-description">
+                        <p>The ZAL-32 is a professional automatic level that combines reliability with precision. Its magnetic-dampened compensator ensures quick and stable readings, while the water-resistant design makes it suitable for all weather conditions.</p>
+                        <p>Perfect for construction sites, civil engineering projects, and general surveying tasks, the ZAL-32 delivers consistent accuracy and durability at an affordable price point.</p>
+                    </div>
+                    <div class="product-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>32x magnification</li>
+                            <li>Magnetic-dampened compensator</li>
+                            <li>±15' compensator range</li>
+                            <li>Water-resistant construction</li>
+                            <li>1.5mm/km leveling accuracy</li>
+                            <li>Endless horizontal drive</li>
+                        </ul>
+                    </div>
+                    <div class="product-cta">
+                        <a href="../contact.html" class="btn">Request Quote</a>
+                        <a href="../Images/Brochures/Levels/ZAL-32-Brochure.html" class="btn btn-outline" target="_blank"><i class="fas fa-file-alt"></i> View Brochure</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ZAL-24 Auto Level -->
+            <div class="product-detail-item">
+                <div class="product-image">
+                    <img src="../Images/Levels/ZAL-24.jpg" alt="ZAL-24 Auto Level">
+                </div>
+                <div class="product-info">
+                    <h2>ZAL-24 Auto Level</h2>
+                    <p class="product-subtitle">Entry-Level Automatic Level</p>
+                    <div class="product-description">
+                        <p>The ZAL-24 is an entry-level automatic level that offers excellent value for basic surveying and construction tasks. With its 24x magnification and robust design, it's perfect for general construction, landscaping, and basic surveying applications.</p>
+                        <p>Built with durability in mind, the ZAL-24 features a shock-resistant housing and simple operation, making it ideal for both professionals and beginners.</p>
+                    </div>
+                    <div class="product-features">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>24x magnification</li>
+                            <li>Air-dampened compensator</li>
+                            <li>±15' compensator range</li>
+                            <li>Shock-resistant housing</li>
+                            <li>2.0mm/km leveling accuracy</li>
+                            <li>Simple operation</li>
+                        </ul>
+                    </div>
+                    <div class="product-cta">
+                        <a href="../contact.html" class="btn">Request Quote</a>
+                        <a href="../Images/Brochures/Levels/ZAL-24-Brochure.html" class="btn btn-outline" target="_blank"><i class="fas fa-file-alt"></i> View Brochure</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Related Products -->
-    <section class="related-products">
+    <!-- Pricing & Special Offers Section -->
+    <section class="pricing-offers">
         <div class="container">
             <div class="section-header">
-                <h2>Related Products</h2>
+                <h2>Special Offers</h2>
+                <p>Take advantage of our competitive pricing and special packages</p>
             </div>
-            <div class="product-grid">
-                <div class="product-item">
-                    <div class="product-image">
-                        <img src="../Images/Total Station/RQS.png" alt="RQS Total Station">
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-tags"></i>
                     </div>
-                    <div class="product-info">
-                        <h4>RQS Total Station</h4>
-                        <p>High-performance total station with 1500m range</p>
-                        <a href="total-station.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Bundle Deals</h3>
+                    <p>Save up to 15% when purchasing a level with accessories package</p>
                 </div>
-                <div class="product-item">
-                    <div class="product-image">
-                        <img src="../Images/Thoedolite/Disteo23.png" alt="Disteo23 Theodolite">
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <div class="product-info">
-                        <h4>Disteo23</h4>
-                        <p>2" angle accuracy with 300m distance range</p>
-                        <a href="theodolite.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Training Included</h3>
+                    <p>Free training session with every digital level purchase</p>
                 </div>
-                <div class="product-item">
-                    <div class="product-image">
-                        <img src="../Images/GNSS/F1-Pro.png" alt="F1 Pro GNSS Receiver">
+                <div class="offer-card">
+                    <div class="offer-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    <div class="product-info">
-                        <h4>F1 Pro</h4>
-                        <p>Compact smart GNSS receiver with RTK capability</p>
-                        <a href="gnss.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <h3>Extended Warranty</h3>
+                    <p>Optional 2-year extended warranty available</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Info Section -->
-    <section class="contact-info-section">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <h3>Contact Info</h3>
-                    <div class="contact-detail">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>123 Precision Way, Engineering District, Tech City</p>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-phone"></i>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-envelope"></i>
-                        <p>info@zaeletprecision.com</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <h3>Download</h3>
-                    <ul class="download-links">
-                        <li><a href="#">GNSS Receiver Brochure</a></li>
-                        <li><a href="#">Total Station Brochure</a></li>
-                        <li><a href="#">Software Brochure</a></li>
-                        <li><a href="#">Accessories Catalog</a></li>
-                    </ul>
-                </div>
-                <div class="contact-item">
-                    <h3>Products</h3>
-                    <ul class="product-links">
-                        <li><a href="gnss.html">GNSS Receivers</a></li>
-                        <li><a href="total-station.html">Total Stations</a></li>
-                        <li><a href="theodolite.html">Theodolites</a></li>
-                        <li><a href="levels.html">Levels</a></li>
-                        <li><a href="software.html">Software</a></li>
-                    </ul>
-                </div>
-                <div class="contact-item">
-                    <h3>Solutions</h3>
-                    <ul class="solution-links">
-                        <li><a href="../index.html#solutions">Construction</a></li>
-                        <li><a href="../index.html#solutions">Monitoring</a></li>
-                        <li><a href="../index.html#solutions">Agriculture</a></li>
-                        <li><a href="../index.html#solutions">Mapping & GIS</a></li>
-                        <li><a href="../index.html#solutions">Surveying</a></li>
-                    </ul>
-                </div>
+            <div class="offers-cta">
+                <a href="../contact.html" class="btn btn-primary">Request Pricing</a>
+                <a href="../dealers.html" class="btn btn-secondary">Find a Dealer</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="../Images/ZAELET-logo.png" alt="Zaelet Logo">
-                    <p>Precision Engineering for Geospatial Professionals</p>
+                    <a href="../index.html">
+                        <img src="../Images/ZAELET-logo.png" alt="Zaelet Precision">
+                    </a>
+                    <p>High-Quality Geospatial Instruments at Unbeatable Prices</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="gnss.html">GNSS Receivers</a></li>
+                            <li><a href="total-station.html">Total Stations</a></li>
+                            <li><a href="theodolite.html">Theodolites</a></li>
+                            <li><a href="levels.html">Digital Levels</a></li>
+                            <li><a href="software.html">Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                            <li><a href="../dealers.html">Find a Dealer</a></li>
+                            <li><a href="../under-construction.html">Downloads</a></li>
+                            <li><a href="../under-construction.html">Technical Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="../index.html#about">About Us</a></li>
+                            <li><a href="../under-construction.html">News</a></li>
+                            <li><a href="../under-construction.html">Events</a></li>
+                            <li><a href="../dealers.html">Become a Dealer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +233 552511880</p>
+                    <p><i class="fas fa-envelope"></i> info@zaeletprecision.com</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Zaelet Precision Company. All Rights Reserved.</p>
+                <p>&copy; 2024 Zaelet Precision Company. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
     <script src="../js/script.js"></script>
-    <script src="../js/product-page.js"></script>
     <script src="../js/search.js"></script>
-    <script src="../js/mobile-menu.js"></script>
 </body>
 </html>
